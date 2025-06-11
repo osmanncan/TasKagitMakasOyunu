@@ -1,4 +1,4 @@
-const hamleler = ['Taş', 'Kağıt', 'Makas'];
+const hamleler = ['Taş', 'Kağit', 'Makas'];
 let oyuncuSkor = 0;
 let bilgisayarSkor = 0;
 
@@ -23,7 +23,7 @@ if (hamle === bilgisayarinHamlesi){
 }else if (hamle === 'Kağıt' && bilgisayarinHamlesi === 'Taş'){
         KazananBilgi.innerHTML = 'Oyuncu';
         oyuncuSkor++;
-}else if (hamle === 'Makas' && bilgisayarinHamlesi === 'Kağıt'){
+}else if (hamle === 'Makas' && bilgisayarinHamlesi === 'Kağit'){
         KazananBilgi.innerHTML = 'Oyuncu';
         oyuncuSkor++;
 }else { 
