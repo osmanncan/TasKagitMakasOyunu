@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TKM Oyunu</title>
+<script src="Hm.js" defer></script>
+<link rel="stylesheet" href="Hm.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+<style>
+      body {
+            background-color:black
+        }
+</style>
+</head>
+<body>
+
+  
+<div class="container">
+<div class="game-wrapper"> 
+
+<p>Oyuncu: <strong id="oyuncuHamle">-</strong> |
+ Bilgisayar: <strong id="bilgisayarHamle">-</strong> |
+Kazanan: <strong id="KazananBilgi">-</strong>
+</p>
+
+
+<button type="button" class="btn btn-outline-light oyunBtn">Tas</button>
+<button type="button" class="btn btn-outline-light oyunBtn">Kagit</button>
+<button type="button" class="btn btn-outline-light oyunBtn">Makas</button>
+
+<p>
+Skor tablosu <br>
+Oyuncu: <strong id="oyuncuSkorTxt">-</strong> |
+Bilgisayar: <strong id="bilgisayarSkorTxt">-</strong> |
+</p>
+
+<button type="button" class="btn btn-outline-light oyunBtn" id="SifirlaBtn">Sifirla</button>
+  </div>
+</div>
+
+<div class="svg-container">
+<svg xmlns="http://www.w3.org/2000/svg" width="59.072" height="26.388" viewBox="0 0 59.072 26.388">
+<defs>
+
+<linearGradient id="grad1" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#705bff" />
+<stop offset="33%" stop-color="#322c7e" />
+<stop offset="67%" stop-color="#7881da" />
+<stop offset="100%" stop-color="#52dfac" />
+</linearGradient>
+</defs>
+<path class="a" stroke="url(#grad1)" d="M281.3,267.819a11.944,11.944,0,0,1,0-23.888c10.85,0,21.834,23.888,32.684,23.888a11.944,11.944,0,0,0,0-23.888C303.171,243.931,292.109,267.819,281.3,267.819Z" transform="translate(-268.104 -242.681)" />
+  </svg>
+</div>
+
+
+</body>
+</html>
