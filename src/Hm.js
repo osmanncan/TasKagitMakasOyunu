@@ -1,4 +1,4 @@
-const hamleler = ['Taş', 'Kağit', 'Makas'];
+const hamleler = ['Taş', 'Kağıt', 'Makas'];
 let oyuncuSkor = 0;
 let bilgisayarSkor = 0;
 
